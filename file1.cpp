@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 int func1()
 {
     cout << "enter a\n";
@@ -12,11 +13,13 @@ int func1()
     return a;
 }
 
+
 bool func2(int b)
 {   
     cout << "This is node 2\n";
     return b > 0;
 }
+
 
 int func3()
 {
@@ -26,12 +29,14 @@ int func3()
     return option%3+1;
 }
 
+
 int func4()
 {
     cout << "Introducing brand new amazing node4 v1.1\n"; 
     cout << "node 4 done\n";
     return 0;
 }
+
 
 void func13()
 {
