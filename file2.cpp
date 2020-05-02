@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "file2.h"
+#include <unistd.h>
 
 using namespace std;
 
@@ -13,6 +14,11 @@ bool func6()
 {
     cout << "This is node 6\nEnter 1 to go to node 7, 0 to pass and go to 8\n";
     int a;
+    for(int i=1; i<=5; i++)
+    {
+        cout << i << endl;
+        sleep(500);
+    }
     cin >> a;
     return a;
 }
